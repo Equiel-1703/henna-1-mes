@@ -1,9 +1,54 @@
 @font-face {
     font-family: 'impactregular';
     src: url('../assets/font/impact-webfont.woff2') format('woff2'),
-         url('../assets/font/impact-webfont.woff') format('woff');
+        url('../assets/font/impact-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+/* Desktop */
+@media only screen and (min-width: 721px) {
+    .message {
+        background: url("../assets/us.jpg");
+
+        text-align: justify;
+        font-family: 'impactregular';
+        font-size: 1vw;
+        line-height: 1.1vw;
+
+        -webkit-background-clip: text;
+        background-clip: text;
+
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 720px) {
+    .message {
+        background: url("../assets/us.jpg");
+
+        text-align: justify;
+        font-family: 'impactregular';
+        font-size: 2vw;
+        line-height: 1.4vw;
+        letter-spacing: -1px;
+
+        -webkit-background-clip: text;
+        background-clip: text;
+
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    }
 }
 
 h1 {
@@ -23,21 +68,3 @@ h1 {
     width: 80%;
 }
 
-.message {
-    background: url("../assets/us.jpg");
-
-    text-align: justify;
-    font-family: 'impactregular';
-    font-size: 1vw;
-    line-height: 1.1vw;
-
-    -webkit-background-clip: text;
-    background-clip: text;
-
-    background-attachment: local;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
-}
