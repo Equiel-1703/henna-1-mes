@@ -19,8 +19,10 @@ h1 {
     background: url("../assets/us.jpg");
 
     text-align: justify;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700; 
     font-size: 1vw;
 
     -webkit-background-clip: text;
