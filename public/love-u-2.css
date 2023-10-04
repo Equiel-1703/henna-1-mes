@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'impactregular';
+    src: url('../assets/font/impact-webfont.woff2') format('woff2'),
+         url('../assets/font/impact-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1 {
     font-family: 'Segoe UI', sans-serif;
     text-align: center;
@@ -19,10 +27,7 @@ h1 {
     background: url("../assets/us.jpg");
 
     text-align: justify;
-    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif; 
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700; 
+    font-family: 'impactregular';
     font-size: 1vw;
 
     -webkit-background-clip: text;
