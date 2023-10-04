@@ -20,12 +20,13 @@ h1 {
 
     text-align: justify;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
     font-size: 1vw;
 
     -webkit-background-clip: text;
     background-clip: text;
 
-    background-attachment: scroll;
+    background-attachment: local;
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
