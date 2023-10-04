@@ -6,30 +6,8 @@
     font-style: normal;
 }
 
-/* Desktop */
-@media only screen and (min-width: 721px) {
-    .message {
-        background: url("../assets/us.jpg");
-
-        text-align: justify;
-        font-family: 'impactregular';
-        font-size: 1vw;
-        line-height: 1.1vw;
-
-        -webkit-background-clip: text;
-        background-clip: text;
-
-        background-attachment: local;
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: 100%;
-
-        -webkit-text-fill-color: rgba(255, 255, 255, 0);
-    }
-}
-
 /* Mobile */
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
     .message {
         background: url("../assets/us.jpg");
 
@@ -50,6 +28,29 @@
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
     }
 }
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+    .message {
+        background: url("../assets/us.jpg");
+
+        text-align: justify;
+        font-family: 'impactregular';
+        font-size: 1vw;
+        line-height: 1.1vw;
+
+        -webkit-background-clip: text;
+        background-clip: text;
+
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    }
+}
+
 
 h1 {
     font-family: 'Segoe UI', sans-serif;
