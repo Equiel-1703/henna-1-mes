@@ -29,6 +29,7 @@ h1 {
     text-align: justify;
     font-family: 'impactregular';
     font-size: 1vw;
+    line-height: 1.1vw;
 
     -webkit-background-clip: text;
     background-clip: text;
@@ -36,7 +37,7 @@ h1 {
     background-attachment: local;
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: 100%;
 
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
