@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    font-size: 32pt;
+}
+
+.subtitle {
+    font-family: century-gothic, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.mtxt {
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4pt;
+}
